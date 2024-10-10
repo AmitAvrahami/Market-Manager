@@ -1,13 +1,14 @@
 # Product Manager
 
-A product management application.
+A comprehensive product management application.
 
 ## Prerequisites
 
 - [Node.js](https://nodejs.org/) (version 14 or higher)
 - [npm](https://www.npmjs.com/) (installed with Node.js)
 
-  ## Technologies Used
+## Technologies Used
+
 - **React**: For building the user interface
 - **Tailwind CSS**: For styling and responsive design
 - **Material-UI**: For additional UI components
@@ -17,24 +18,56 @@ A product management application.
 ## Installation
 
 1. Clone the project:
-
    ```bash
-git clone [https://github.com/username/repository-name.git](https://github.com/AmitAvrahami/Market-Manager.git)
+   git clone https://github.com/AmitAvrahami/Market-Manager.git
+   ```
 
-2.Navigate to the project directory:
-cd MarketManage
+2. Navigate to the project directory:
+   ```bash
+   cd MarketManage
+   ```
 
-3.Install the dependencies for backend:
-cd backend , npm install
+3. Install the dependencies for backend:
+   ```bash
+   cd backend
+   npm install
+   ```
 
-3.Install the dependencies for frontend:
-cd frontend , npm install
+4. Install the dependencies for frontend:
+   ```bash
+   cd frontend
+   npm install
+   ```
 
-4.Running the Application
-To start the application, use the following command:
-npm start in the backend and frontend same time 
+## Running the Application
 
-5.Usage
-After starting the application, you can navigate through the different pages to manage products, view details, and perform various actions.
+To start the application, you need to run both the backend and frontend servers:
 
+1. Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
 
+2. In a new terminal, start the frontend server:
+   ```bash
+   cd frontend
+   npm start
+   ```
+
+The application should now be running and accessible through your web browser.
+
+## Usage
+
+After starting the application, you can:
+- Navigate through different pages to manage products
+- View detailed product information
+- Perform various CRUD on items
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
